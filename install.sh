@@ -8,11 +8,11 @@
 #export CLASSPATH=.:$JAVA_HOME/lib
 #export PATH=$PATH:$JAVA_HOME/bin' >> ~/.profile
 
-echo '清华源'
-sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
-sudo rm -rf /etc/apt/sources.list
-sudo cp ./sources.list /etc/apt/
-sudo apt get update
+#echo '清华源'
+#sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
+#sudo rm -rf /etc/apt/sources.list
+#sudo cp ./sources.list /etc/apt/
+#sudo apt get update
 echo '安装npm'
 sudo apt install -y nodejs
 sudo apt install -y npm
